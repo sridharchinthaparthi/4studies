@@ -1,0 +1,98 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 20px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 32px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: red;
+}
+body{
+    font-family:Poppins;
+    background-image: url("bg home.jpg");
+}
+h1{
+    width: auto;
+    font-family: poppins;
+    text-align: center;
+    color: red;
+    font-size: 42px;
+    background-color: transparent;
+    padding-top: 25px;
+}
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+.menu-area{
+    margin-top: 0px;
+    background-color: transparent;
+}
+.menu-area ul{
+    background: transparent;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    padding: ;
+}
+.menu-area ul li{
+    display: inline-block;
+
+}
+.menu-area ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: table;
+    padding: 1px 15px;
+    font-weight: bold;
+    width: auto;
+}
+.menu-area ul li:hover{
+    background: #ff2200;
+}
+.menu-area ul li:hover > ul{
+    display: block;
+}
+.menu-area ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #black;
+}
+.menu-area ul ul li{
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #ffffff;
+}
+.menu-area ul ul ul{
+    position: absolute; 
+    left: 100%;
+    top: 0;
+}
